@@ -1,0 +1,41 @@
+=== mpi1: static block distribution, p=16 ===
+Per-process statistics:
+PROC rank=0 files=188 bytes=17588484 tokens=2875334 local_time=3.072403
+PROC rank=1 files=188 bytes=19169534 tokens=3131769 local_time=3.181467
+PROC rank=2 files=188 bytes=15801430 tokens=2584424 local_time=2.870375
+PROC rank=3 files=188 bytes=13580687 tokens=2219696 local_time=2.637092
+PROC rank=4 files=188 bytes=22192204 tokens=3626652 local_time=3.365990
+PROC rank=5 files=188 bytes=15647455 tokens=2556891 local_time=2.844073
+PROC rank=6 files=188 bytes=18021618 tokens=2944097 local_time=3.092693
+PROC rank=7 files=188 bytes=18643616 tokens=3048154 local_time=3.145431
+PROC rank=8 files=187 bytes=15036518 tokens=2457345 local_time=2.794594
+PROC rank=9 files=187 bytes=17649422 tokens=2883674 local_time=3.058032
+PROC rank=10 files=187 bytes=16251034 tokens=2656051 local_time=2.908047
+PROC rank=11 files=187 bytes=17206931 tokens=2812767 local_time=3.002795
+PROC rank=12 files=187 bytes=19557492 tokens=3196393 local_time=3.184389
+PROC rank=13 files=187 bytes=13541267 tokens=2212406 local_time=2.647916
+PROC rank=14 files=187 bytes=15503209 tokens=2532423 local_time=2.835811
+PROC rank=15 files=187 bytes=19663158 tokens=3213382 local_time=3.198571
+Files processed: 3000
+Total tokens read: 44951458
+Total occurrences found: 3631778
+LOAD_IMBALANCE=1.1258
+RELATIVE_SPREAD=0.2438
+SETUP_TIME=0.027323
+MAX_LOCAL_TIME=3.365990
+OVERHEAD_TIME=0.028650
+
+Top 10 query words in the corpus:
+  a: 785774
+  para: 392156
+  sus: 228913
+  otros: 105530
+  ante: 99832
+  unos: 88794
+  otra: 83901
+  vosotros: 61617
+  mios: 58420
+  tuya: 56635
+
+MATCHES_BASELINE=True
+EXECUTION_TIME=3.394640

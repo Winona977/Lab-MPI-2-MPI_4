@@ -1,0 +1,38 @@
+=== mpi2: size-aware LPT distribution, p=16 ===
+Per-process statistics:
+PROC rank=0 files=189 bytes=17196868 tokens=2811495 local_time=3.514878
+PROC rank=1 files=188 bytes=17196912 tokens=2810569 local_time=3.527306
+PROC rank=2 files=188 bytes=17196907 tokens=2809791 local_time=3.487721
+PROC rank=3 files=186 bytes=17184846 tokens=2808673 local_time=3.499192
+PROC rank=4 files=187 bytes=17184882 tokens=2806554 local_time=3.521103
+PROC rank=5 files=188 bytes=17196903 tokens=2811201 local_time=3.514848
+PROC rank=6 files=188 bytes=17196893 tokens=2810791 local_time=3.549578
+PROC rank=7 files=187 bytes=17184802 tokens=2809934 local_time=3.492423
+PROC rank=8 files=187 bytes=17184803 tokens=2806794 local_time=3.446256
+PROC rank=9 files=188 bytes=17196921 tokens=2811038 local_time=3.478746
+PROC rank=10 files=187 bytes=17184801 tokens=2808353 local_time=3.495996
+PROC rank=11 files=187 bytes=17184913 tokens=2809171 local_time=3.472516
+PROC rank=12 files=188 bytes=17196915 tokens=2809835 local_time=3.495959
+PROC rank=13 files=187 bytes=17184891 tokens=2809322 local_time=3.529775
+PROC rank=14 files=188 bytes=17196886 tokens=2808891 local_time=3.479595
+PROC rank=15 files=187 bytes=17184916 tokens=2809046 local_time=3.516952
+Files processed: 3000
+Total tokens read: 44951458
+Total occurrences found: 3631778
+LOAD_IMBALANCE=1.0138
+RELATIVE_SPREAD=0.0295
+
+Top 10 query words in the corpus:
+  a: 785774
+  para: 392156
+  sus: 228913
+  otros: 105530
+  ante: 99832
+  unos: 88794
+  otra: 83901
+  vosotros: 61617
+  mios: 58420
+  tuya: 56635
+
+MATCHES_BASELINE=True
+EXECUTION_TIME=11.205125
